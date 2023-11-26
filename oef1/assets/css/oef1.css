@@ -48,3 +48,11 @@ nav a{
     border: 2px solid white;
     /*margin-bottom: 10px; onderkant gaat niet naar boven*/
 }
+main{
+    padding-top: 120px;
+    horiz-align: center;
+    width: 1200px;
+}
+main article img{
+    width: 1200px;
+}
