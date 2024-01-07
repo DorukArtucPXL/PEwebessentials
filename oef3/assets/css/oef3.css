@@ -1,0 +1,60 @@
+/* naam: Doruk Artuc
+*/
+*{
+    font-size: 18pt;
+}
+.row, .element, .inline-element, input, select, button {
+    box-sizing: border-box;
+}
+
+.row {
+    padding: 5px;
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin: 5px;
+    border: 1px solid orange;
+}
+
+.element {
+    margin: 5px;
+}
+
+.w1 { flex: 0 0 calc(100% / 12 - 10px); }
+.w2 { flex: 0 0 calc(100% / 6 - 10px); }
+.w3 { flex: 0 0 calc(25% - 10px); }
+.w4 { flex: 0 0 calc(100% / 3 - 10px); }
+.w5 { flex: 0 0 calc(100% * 5 / 12 - 10px); }
+.w6 { flex: 0 0 calc(50% - 10px); }
+.w7 { flex: 0 0 calc(100% * 7 / 12 - 10px); }
+.w8 { flex: 0 0 calc(100% * 2 / 3 - 10px); }
+.w9 { flex: 0 0 calc(75% - 10px); }
+.w10 { flex: 0 0 calc(100% * 5 / 6 - 10px); }
+.w11 { flex: 0 0 calc(100% * 11 / 12 - 10px); }
+.w12 { flex: 0 0 calc(100% - 10px); }
+form{
+    width: 700px;
+}
+.nummercss{
+    width: 100px;
+}
+
+label img{
+    width: 50px;
+    vertical-align: bottom;
+}
+textarea{
+    width: 650px;
+}
+.knop{
+    color: white;
+    background-color: #0090e3;
+    width: 100%;
+    padding: 20px;
+}
+/* 
+kleuren:
+    oranje: orange
+    wit:    white
+    blauw:  0090e3
+*/
